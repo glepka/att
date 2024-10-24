@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/att/static/css/main.15f246e2.css",
+    "main.js": "/att/static/js/main.c93ab8f5.js",
+    "static/media/Inter-SemiBold.woff2": "/att/static/media/Inter-SemiBold.3be6b9e3b22c24eaada7.woff2",
+    "static/media/Inter-Medium.woff2": "/att/static/media/Inter-Medium.9c1163dc5cc2a1c9b55b.woff2",
+    "static/media/Inter-Regular.woff2": "/att/static/media/Inter-Regular.76224c7fa303861462e7.woff2",
+    "static/media/avatar.png": "/att/static/media/avatar.8e10e72f737264ef2bde.png",
+    "static/media/logo.svg": "/att/static/media/logo.59819d18a2050a9cc87a48618753aea4.svg",
+    "static/media/settings-gear.svg": "/att/static/media/settings-gear.3099b97e8224a3b45ec80dff0514b53e.svg",
+    "static/media/services-active.svg": "/att/static/media/services-active.516e110fd199310d8dac0fd4078510cf.svg",
+    "static/media/services.svg": "/att/static/media/services.0253eac9aedeac8b9d7b874d03aaf5b1.svg",
+    "static/media/loans-active.svg": "/att/static/media/loans-active.581b2283f0c14287e62acc378c34d935.svg",
+    "static/media/transactions-active.svg": "/att/static/media/transactions-active.4367a3b6449db75e035cd396c2c2b328.svg",
+    "static/media/transactions.svg": "/att/static/media/transactions.296445ab2b010071398a376d5e84ec4f.svg",
+    "static/media/loans.svg": "/att/static/media/loans.4db343936e8b076ed13cb23fbb26afc1.svg",
+    "static/media/investments-active.svg": "/att/static/media/investments-active.ff69964a002336d0889e221642d5130e.svg",
+    "static/media/investments.svg": "/att/static/media/investments.99b304b225059394f149b9a52767436e.svg",
+    "static/media/my-privileges-active.svg": "/att/static/media/my-privileges-active.f562d3fe2ae85401656b4141cd9bb898.svg",
+    "static/media/my-privileges.svg": "/att/static/media/my-privileges.d7e468b6dc595ee0d0a0102901a57174.svg",
+    "static/media/notification.svg": "/att/static/media/notification.8680dfecc1ea7acd4d23f00c2cffadf7.svg",
+    "static/media/accounts-active.svg": "/att/static/media/accounts-active.d1938d9384eae0f2f380de762bf287d5.svg",
+    "static/media/accounts.svg": "/att/static/media/accounts.9d85eacfc880957c5cd5316aba29ecfa.svg",
+    "static/media/settings-active.svg": "/att/static/media/settings-active.aa53aed9c22153074f93a657b1c31052.svg",
+    "static/media/settings.svg": "/att/static/media/settings.389c41b4c560c0d3380c2c0bdd0988b2.svg",
+    "static/media/credit-cards-active.svg": "/att/static/media/credit-cards-active.73110718a60d1b7b194d5a11e3a44b7d.svg",
+    "static/media/credit-cards.svg": "/att/static/media/credit-cards.a3ea8958a7b8c3067fcb0c6531c0949b.svg",
+    "static/media/edit-icon.svg": "/att/static/media/edit-icon.2a181bc658f7b5b284d219eeeb42cd60.svg",
+    "static/media/burger-button.svg": "/att/static/media/burger-button.5da985ecba2476781461b3d0871299c8.svg",
+    "static/media/dashboard-active.svg": "/att/static/media/dashboard-active.374f3287ce0478e494122678e76b78c7.svg",
+    "static/media/dashboard.svg": "/att/static/media/dashboard.0d7683e8116cfd9b22829f8052089b8c.svg",
+    "static/media/search.svg": "/att/static/media/search.cd7354c570b752133f6ec9d0aa35a022.svg",
+    "index.html": "/att/index.html",
+    "main.15f246e2.css.map": "/att/static/css/main.15f246e2.css.map",
+    "main.c93ab8f5.js.map": "/att/static/js/main.c93ab8f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f246e2.css",
+    "static/js/main.c93ab8f5.js"
+  ]
+}
