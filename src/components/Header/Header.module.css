@@ -1,0 +1,105 @@
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6eff5;
+}
+
+.headerMobile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 31px 25px 20px 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6eff5;
+}
+
+.burgerButton {
+  width: 14px;
+  height: 18px;
+  background: transparent;
+  border: none;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.89px;
+  text-align: left;
+  color: #343c6a;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.containerMobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.label {
+  background-color: #f5f7fa;
+  border-radius: 40px;
+  display: flex;
+  gap: 15px;
+  padding: 15px 25px;
+}
+
+.labelIcon {
+  width: 19px;
+  height: 19px;
+}
+.input {
+  background-color: transparent;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: left;
+  color: #445269;
+  outline: none;
+  border: none;
+}
+
+.input::placeholder {
+  color: #8ba3cb;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 530px) {
+  .title {
+    font-size: 20px;
+    line-height: 24.2px;
+  }
+
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  .input {
+    font-size: 13px;
+    line-height: 15.73px;
+  }
+
+  .label {
+    padding: 12px 19px;
+  }
+  .labelIcon {
+    width: 15px;
+    height: 15px;
+  }
+}

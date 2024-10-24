@@ -1,0 +1,130 @@
+.editProfile {
+  display: flex;
+  padding-top: 55px;
+  gap: 53px;
+}
+
+.avatarContainer {
+  min-width: 130px;
+  min-height: 130px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.editButton {
+  position: absolute;
+  right: -2px;
+  bottom: 16px;
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+}
+
+.editButton:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 22px 29px;
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #232323;
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  border-radius: 15px;
+  border: 1px solid #dfeaf2;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: left;
+  color: #445269;
+  padding: 16px 20px;
+  outline: none;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #718ebf;
+}
+
+.submitButton {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  width: 190px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: #1814f3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: end;
+  margin-top: 7px;
+}
+
+.submitButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .editProfile {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    font-size: 13px;
+    line-height: 15.73px;
+  }
+
+  .input {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+  .submitButton {
+    width: 100%;
+  }
+}
